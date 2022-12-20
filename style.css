@@ -44,3 +44,9 @@ h2 {
     width: 80px;
   }
 }
+
+@media (max-width: 426px) {
+  #grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
